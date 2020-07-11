@@ -1,0 +1,69 @@
+{
+  "workbench.colorTheme": "Dracula Soft",
+  "editor.fontFamily": "Fira Code",
+  "editor.fontLigatures": true,
+  "editor.fontSize": 14,
+  "editor.lineHeight": 24,
+  "workbench.iconTheme": "material-icon-theme",
+  "editor.formatOnSave": true,
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+
+  "editor.rulers": [80, 120],
+  "material-icon-theme.folders.associations": {
+    "entities": "class",
+    "infra": "app",
+    "schemas": "class",
+    "typeorm": "database",
+    "repositories": "mappings",
+    "migrations": "tools",
+    "modules": "components",
+    "implementations": "core",
+    "dtos": "typescript",
+    "fakes": "mock"
+  },
+  "[javascript]": {
+    "editor.codeActionsOnSave": {
+      "source.fixAllOnSave": true
+    }
+    // "editor.codeActionsOnSave": {
+    //     "source.fixAll.eslint": true
+    // },
+  },
+
+  "[javascriptreact]": {
+    "editor.codeActionsOnSave": {
+      "source.fixAll.eslint": true
+    }
+  },
+  "[typescript]": {
+    "editor.codeActionsOnSave": {
+      "source.fixAll.eslint": true
+    }
+  },
+  "[typescriptreact]": {
+    "editor.codeActionsOnSave": {
+      "source.fixAll.eslint": true
+    }
+  },
+  "editor.tabSize": 2,
+  "editor.renderLineHighlight": "gutter",
+  "terminal.integrated.fontSize": 14,
+  "emmet.syntaxProfiles": {
+    "javascript": "jsx"
+  },
+  "emmet.includeLanguages": {
+    "javascript": "javascriptreact"
+  },
+  "files.associations": {
+    ".sequelizerc": "javascript",
+    ".prettierrc": "json"
+  },
+  "breadcrumbs.enabled": true,
+  "terminal.integrated.shell.osx": "/bin/zsh",
+  "window.zoomLevel": 0,
+  "javascript.updateImportsOnFileMove.enabled": "always",
+  "git.enableSmartCommit": true,
+  "git.confirmSync": false,
+  "editor.formatOnPaste": true,
+  "editor.formatOnType": true
+}
